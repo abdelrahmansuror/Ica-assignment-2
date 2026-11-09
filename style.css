@@ -1,0 +1,179 @@
+
+body {
+    background-color: #f3f6fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px 0 80px;
+}
+
+.screen {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.location-title {
+    color: #dc2626;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.search {
+    background-color: #f1f1f1;
+    padding: 13px;
+    border-radius: 10px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.promo {
+    background: linear-gradient(to right, #c9400c, #ff8c32);
+    color: white;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.promo h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.coupon {
+    display: inline-block;
+    background-color: white;
+    color: #dc2626;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.category {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    background-color: #fff1f1;
+    padding: 12px 3px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.category span {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.featured {
+    margin-top: 25px;
+}
+
+.store {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.store-cover {
+    background-color: #ffedd5;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.store-info {
+    padding: 12px;
+}
+
+.store-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.store-name {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.rating {
+    display: inline-block;
+    background-color: #15803d;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.delivery {
+    color: #dc2626;
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+.version {
+    text-align: center;
+    color: gray;
+    font-size: 11px;
+    margin-top: 25px;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    box-shadow: 0 -2px 8px #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    text-align: center;
+    font-size: 12px;
+}
+
+nav span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+nav a:first-child {
+    color: #dc2626;
+    font-weight: bold;
+}
+
